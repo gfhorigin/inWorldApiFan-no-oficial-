@@ -52,19 +52,3 @@ class Chacters:
 
 
 
-"""while True:
-        a= input()
-        translator = GoogleTranslator(source='auto', target='en')
-        forBot = translator.translate(a)
-       # print(forBot)
-        myobj = {"character":"workspaces/default-kscfc5427wqjrybituptaq/characters/andrei", "text":forBot,"session_id":f'{m["name"]}'}
-        translator = GoogleTranslator(source='auto', target='ru')
-        x = requests.post(url, json = myobj, headers=headers)
-       # print(x)
-        m=x.json()
-        print(m)
-        message =m['textList']
-
-        #print(translator.translate(str(message)))
-        for i in message:
-            print(translator.translate(i))"""
